@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <h1>Rock Paper Scissor</h1>
@@ -21,8 +23,8 @@
             </div>
         </div>
         <div class="selectBoxs">
-            <div class="selectBox" id="user">pick your choice</div>
-            <div class="selectBox" id="comp">comp will pick his choice</div>
+            <div class="selectBox" id="user">Your choice</div>
+            <div class="selectBox" id="comp">App's Choice</div>
         </div>
         <div class="scoreBoard">
             <div class="score">
@@ -31,13 +33,22 @@
             </div>
             <div class="score">
                 <p id="compScore">0</p>
-                <p>Comp</p>
+                <p>App</p>
             </div>
         </div>
         <div class="msgContainer">
-            <p id="msg">play your turn</p>
+            <div id="msg">
+                <h2 style="color: rgb(134, 52, 25);">Rules</h2>
+                <ul>
+                    <li>From the 3 options select whatever u want to choose</li>
+                    <li>As soon as you select our app will randomly select one</li>
+                    <li>Based on the conventional rules whoever wins will get +1 point</li>
+                    <li>If both select same then it's a draw, nobody will get point</li>
+                </ul>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
